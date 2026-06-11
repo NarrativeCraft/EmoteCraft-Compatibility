@@ -1,6 +1,6 @@
-package com.example.examplemod.platform;
+package fr.loudo.narrativecraftemotecraft.platform;
 
-import com.example.examplemod.platform.services.IPlatformHelper;
+import fr.loudo.narrativecraftemotecraft.platform.services.IPlatformHelper;
 import net.fabricmc.loader.api.FabricLoader;
 
 public class FabricPlatformHelper implements IPlatformHelper {

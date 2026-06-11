@@ -3,7 +3,9 @@
   "minVersion": "0.8",
   "package": "fr.loudo.narrativecraftemotecraft.mixin",
   "compatibilityLevel": "JAVA_21",
-  "mixins": [],
+  "mixins": [
+    "PlayerListFields"
+  ],
   "client": [],
   "server": [],
   "injectors": {

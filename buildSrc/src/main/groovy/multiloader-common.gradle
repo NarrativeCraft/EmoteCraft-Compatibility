@@ -29,6 +29,18 @@ repositories {
         name = 'BlameJared'
         url = 'https://maven.blamejared.com'
     }
+    maven {
+        name = 'loudo'
+        url = 'https://maven.loudo.dev'
+    }
+    maven {
+        name = 'kosmx'
+        url = 'https://maven.kosmx.dev/'
+    }
+    maven {
+        name = 'Redlance'
+        url = "https://repo.redlance.org/public"
+    }
 }
 
 sourcesJar {

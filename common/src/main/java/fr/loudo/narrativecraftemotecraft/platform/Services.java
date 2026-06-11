@@ -1,8 +1,7 @@
-package com.example.examplemod.platform;
+package fr.loudo.narrativecraftemotecraft.platform;
 
-import com.example.examplemod.Constants;
-import com.example.examplemod.platform.services.IPlatformHelper;
-
+import fr.loudo.narrativecraftemotecraft.NarrativeCraftEmoteCraft;
+import fr.loudo.narrativecraftemotecraft.platform.services.IPlatformHelper;
 import java.util.ServiceLoader;
 
 public class Services {
@@ -14,7 +13,7 @@ public class Services {
         final T loadedService = ServiceLoader.load(clazz, Services.class.getClassLoader())
                 .findFirst()
                 .orElseThrow(() -> new NullPointerException("Failed to load service for " + clazz.getName()));
-        Constants.LOG.debug("Loaded {} for service {}", loadedService, clazz);
+        NarrativeCraftEmoteCraft.LOG.debug("Loaded {} for service {}", loadedService, clazz);
         return loadedService;
     }
 }

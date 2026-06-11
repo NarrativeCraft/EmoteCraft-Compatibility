@@ -1,4 +1,4 @@
-package com.example.examplemod.platform.services;
+package fr.loudo.narrativecraftemotecraft.platform.services;
 
 public interface IPlatformHelper {
 

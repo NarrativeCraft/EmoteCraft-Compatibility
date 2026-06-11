@@ -1,12 +1,9 @@
-package com.example.examplemod;
-
-import com.example.examplemod.platform.Services;
-import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.world.item.Items;
+package fr.loudo.narrativecraftemotecraft;
 
 public class CommonClass {
 
     public static void init() {
-
+        NarrativeCraftEmoteCraft.registerEvents();
+        NarrativeCraftEmoteCraft.registerActions();
     }
 }
